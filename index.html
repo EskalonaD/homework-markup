@@ -5,45 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <wrapper>
         <header class="header">
             <div class="mobile-header">
                 <div class="mobile-header__wrapper">
-                    <div class="mobile-header__menu"></div>
+                    <div class="mobile-header__menu"><img src="assets\burger-grape.svg" alt="menu icon"></div>
                     <h1 class="mobile-header__heading">BOOKM&#8491;L</h1>
-                    <div class="mobile-header__search"></div>
+                    <!-- suppose to be white... but there was no red icon in assets folder -->
+                    <div class="mobile-header__search"><img src="assets\magnifier.svg" alt="search icon"></div>
                 </div>
-                <div class="mobile-header__wrapper">
-                    <div class="mobile-header__resolution">Для усіх</div>
-                    <div class="mobile-header__resolution">baby side</div>
-                    <div class="mobile-header__resolution">teen side</div>
-                </div>
+                <ul class="mobile-header__resolution-wrapper">
+                    <li class="mobile-header__resolution">Для усіх</li>
+                    <li class="mobile-header__resolution mobile-header__resolution__active">baby side</li>
+                    <li class="mobile-header__resolution">teen side</li>
+                </ul>
             </div>
             <div class="desktop-header">
-            <h1 class="desktop-header__headding">BOOKM&#8491;L</h1>
-            <div>
+                <div class="desktop-header__logo"><img src="assets\Logo.svg" alt="company logo"></div>
+                <div class="desktop-header__wrapper">
 <!-- select??? -->
-                <div class="desktop-header__resolution">Для усіх</div>
-                <div class="desktop-header__wrapper">
+                    <div class="desktop-header__resolution">Для усіх</div>
+                    <nav class="desktop-header__menu">
 
-                    <div>
-                        Про букмоль
-                    </div>
-                    <div>
-                        Співпраця
-                    </div>
-                    <div>
-                        Підтримка
-                    </div>
+                        <div class="desktop-header__menu-item">
+                            Про букмоль
+                        </div>
+                        <div class="desktop-header__menu-item">
+                            Співпраця
+                        </div>
+                        <div class="desktop-header__menu-item">
+                            Підтримка
+                        </div>
+                    </nav>
                 </div>
-            </div>
-                <div class="desktop-header__wrapper">
+                <div class="desktop-header__tools">
 
                     
-                    <div class="search"></div>
-                    <div class="bookmark"></div>
+                    <div class="search"><img src="assets\magnifier.svg" alt="search icon"></div>
+                    <div class="bookmark"><img src="assets\bookmark.svg" alt="bookmark icon"></div>
                 </div>
             </div>
         </header>

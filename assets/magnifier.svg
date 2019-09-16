@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="magnifier" width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+
+    <style>
+        .magnifier {
+            cursor: pointer;
+        }
+
+        .magnifier:hover .mgnfr-icon {
+            stroke: #eeb20b;
+        }
+
+    </style>
+
+    <title>633E566E-9FF8-4B60-9C96-5BE8496161C2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1368" height="51"></rect>
+    </defs>
+    <g id="all" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bokmal_home-page_for-all_V2" transform="translate(-1292.000000, -15.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1366" height="3501"></rect>
+            <g id="header-V2" transform="translate(-1.000000, -1.000000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#F1EFF3" x="0.5" y="0.5" width="1367" height="50"></rect>
+                    <g id="search" mask="url(#mask-2)" stroke-linecap="round" stroke-linejoin="round">
+                        <g transform="translate(1295.000000, 18.000000)">
+                            <g>
+                                <circle class="mgnfr-icon" id="Oval" stroke="#2B292D" stroke-width="2" cx="6.66666667" cy="6.66666667" r="6.66666667"></circle>
+                                <path class="mgnfr-icon" d="M16,16 L11.3777778,11.3777778" id="Shape" stroke="#2B292D" stroke-width="2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
