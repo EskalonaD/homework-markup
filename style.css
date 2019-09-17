@@ -1,3 +1,47 @@
+@font-face {
+    font-family: "Lora-Regular";
+    src: url("assets/fonts/Lora-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Lora-BoldItalic";
+    src: url("assets/fonts/Lora-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    
+}
+@font-face {
+    font-family: "Lora-Bold";
+    src: url("assets/fonts/Lora-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url("assets/fonts/ProximaNova-Regular.ttf") format("truetype");
+
+    
+}
+
+@font-face {
+    font-family: "ProximaNova-Semibold";
+    src: url("assets/fonts/ProximaNova-Semibold.ttf") format("truetype");
+
+    
+}
+
+@font-face {
+    font-family: "ProximaNova-Extrabold";
+    src: url("assets/fonts/ProximaNova-Extrabld.ttf") format("truetype");
+
+    
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,7 +54,7 @@ img {
 
 .desktop-header {
     display: none;
-    /* visibility: hidden; */
+
 }
 
 .mobile-header {
@@ -31,6 +75,10 @@ img {
 .mobile-header__heading {
     font-size: 23px;
     color: #fff;
+    font-family: 'ProximaNova-Semibold';
+    letter-spacing: 10px;
+
+
     
 }
 
@@ -48,6 +96,8 @@ img {
     font-size: 18px;
     height: 55px;
     line-height: 55px;
+    font-family: 'ProximaNova-Regular';
+
 }
 
 .mobile-header__resolution__active {
@@ -62,31 +112,69 @@ img {
     .desktop-header {
         display: flex;
         flex-direction: row;
-        /* width: 100%; */
+        height: 45px;
     }
 
     .desktop-header__logo {
-        border: 2px solid #ddd;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+        
     }
     .desktop-header__wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         flex-basis: 100%;
-        border: 2px solid #ddd;
+        border: 1px solid #ddd;
 
     }
 
+    .desktop-header__resolution-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 25px;
+        border-radius: 20px;
+        background-color: #FCCA31;
+        margin-left: 25px;
+
+    }
+    .desktop-header__resolution-container {
+
+        background-color: inherit;
+        border: none;
+        border-radius: 35%;
+        font-size: 16px;
+        font-family: 'ProximaNova-Semibold';
+    }
+    .desktop-header__resolution {
+
+        font-family: 'ProximaNova-Semibold';
+    }
     .desktop-header__menu {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        flex-basis: 40%;
         
+    }
+
+    .desktop-header__menu-item {
+        font-family: 'Lora-Bold';
     }
 
     .desktop-header__tools {
         display: flex;
         flex-direction: row;
+        align-items: center;
         border: 1px solid #ddd;
 
+    }
+
+    .tools__item {
+        margin: 0 10px;
     }
 }

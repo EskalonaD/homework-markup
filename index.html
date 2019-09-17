@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
             <div class="mobile-header">
                 <div class="mobile-header__wrapper">
                     <div class="mobile-header__menu"><img src="assets\burger-grape.svg" alt="menu icon"></div>
-                    <h1 class="mobile-header__heading">BOOKM&#8491;L</h1>
+                    <h1 class="mobile-header__heading">BOKM&#8491;L</h1>
                     <!-- suppose to be white... but there was no red icon in assets folder -->
                     <div class="mobile-header__search"><img src="assets\magnifier.svg" alt="search icon"></div>
                 </div>
@@ -26,11 +26,15 @@
             <div class="desktop-header">
                 <div class="desktop-header__logo"><img src="assets\Logo.svg" alt="company logo"></div>
                 <div class="desktop-header__wrapper">
-<!-- select??? -->
-                    <div class="desktop-header__resolution">Для усіх</div>
-                    <nav class="desktop-header__menu">
+                    <div class="desktop-header__resolution-wrapper">
 
-                        <div class="desktop-header__menu-item">
+                        <select class="desktop-header__resolution-container">
+                            <option selected class="desktop-header__resolution">Для усіх</option>
+                        </select>
+                    </div>
+                        <nav class="desktop-header__menu">
+                            
+                            <div class="desktop-header__menu-item">
                             Про букмоль
                         </div>
                         <div class="desktop-header__menu-item">
@@ -41,11 +45,11 @@
                         </div>
                     </nav>
                 </div>
-                <div class="desktop-header__tools">
+                <div class="desktop-header__tools tools">
 
                     
-                    <div class="search"><img src="assets\magnifier.svg" alt="search icon"></div>
-                    <div class="bookmark"><img src="assets\bookmark.svg" alt="bookmark icon"></div>
+                    <div class="tools__item"><img src="assets\magnifier.svg" alt="search icon"></div>
+                    <div class="tools__item"><img src="assets\bookmark.svg" alt="bookmark icon"></div>
                 </div>
             </div>
         </header>
