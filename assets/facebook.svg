@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="facebook" width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <style>
+        .facebook {
+            cursor: pointer;
+        }
+
+        .facebook:hover .face-icon {
+            fill: #4460a0;
+        }
+
+    </style>
+
+    <title>E5B7521C-3687-48F1-82DA-CDFB68A261CE-color</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="all" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="face-icon" id="Bokmal_Article_for-teenager-open-menu_V2" transform="translate(-115.000000, -3052.000000)" fill="#2B292D">
+            <g id="social_icons" transform="translate(115.000000, 3052.000000)">
+                <path d="M1.251026,24.5555556 C0.559900977,24.5555556 0,23.9486197 0,23.2001926 L0,1.35526765 C0,0.606649965 0.559988928,0 1.251026,0 L21.4157286,0 C22.1065898,0 22.6666667,0.606649965 22.6666667,1.35526765 L22.6666667,23.2001926 C22.6666667,23.948715 22.1065018,24.5555556 21.4157286,24.5555556 L15.6396719,24.5555556 L15.6396719,15.0462912 L18.5859683,15.0462912 L19.0271344,11.3403621 L15.6396719,11.3403621 L15.6396719,8.97436053 C15.6396719,7.90140855 15.9146971,7.17022718 17.3349423,7.17022718 L19.146397,7.16936965 L19.146397,3.85475697 C18.8331128,3.80959408 17.7578145,3.7086922 16.5067885,3.7086922 C13.8950606,3.7086922 12.1070011,5.43574375 12.1070011,8.60734064 L12.1070011,11.3403621 L9.15314085,11.3403621 L9.15314085,15.0462912 L12.1070011,15.0462912 L12.1070011,24.5555556 L1.251026,24.5555556 Z" id="Facebook"></path>
+            </g>
+        </g>
+    </g>
+</svg>
