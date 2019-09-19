@@ -107,6 +107,12 @@ img {
     border-bottom: 4px solid rgb(236, 250, 43);
 }
 
+/* Aside styles */
+
+.aside {
+    display: none;
+}
+
 /* Footer styles */
 
 .footer {
@@ -245,6 +251,31 @@ img {
         margin: 0 10px;
     }
 
+    /* aside styles */
+
+    .aside {
+    height: 100%;
+    
+}
+
+  .aside__switcher {
+  /*display: none;*/
+ }
+
+  .aside__button-on,
+  .aside__button-off {
+  display: none;
+  border: none;
+  background-color: inherit;
+  
+}
+.aside__switcher:checked ~ .aside__button-off {
+  display: block;
+}
+
+.aside__switcher:not(:checked) ~ .aside__button-on {
+  display: block;
+}
     /* footer styles */
 
     .footer{
