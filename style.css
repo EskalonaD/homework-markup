@@ -251,15 +251,25 @@ img {
         margin: 0 10px;
     }
 
+    /* Content styles */
+    .content-wrapper {
+        display: flex;
+    }
     /* aside styles */
 
     .aside {
+        display:block;
+        /* float: left; */
+        padding: 15px;
+        width: 5%;
     height: 100%;
+    border: 1px solid #ddd;
+
     
 }
 
   .aside__switcher {
-  /*display: none;*/
+  display: none;
  }
 
   .aside__button-on,
