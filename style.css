@@ -184,6 +184,10 @@ ul {
     border: 1px solid #000;
 }
 
+.review__heading {
+    margin-left: 20px;
+}
+
 .review__description {
     position: relative;
     margin: 0 20px;
@@ -219,7 +223,6 @@ ul {
     max-width: 100%;
     min-width: 100%;
     object-fit: cover;
-    margin-bottom: 10px;
 }
 .content__description {
     position: relative;
