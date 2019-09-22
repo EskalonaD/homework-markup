@@ -154,12 +154,17 @@ ul {
     transform: translateY(50%);
 }
 
+.bookmark {
+    cursor: pointer;
+}
+
 .content__read-button {
     border: none;
     background-color: #FBD500;
     width: 75px;
     height: 28px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .content__sort {
@@ -184,6 +189,7 @@ ul {
     border: none;
     font-family: 'ProximaNova-Semibold';
     font-size: 16px;
+    cursor:pointer;
 }
 
 .sort__separator {
@@ -234,6 +240,8 @@ ul {
     max-width: 100%;
     min-width: 100%;
     object-fit: cover;
+    cursor:pointer;
+
 }
 .content__description {
     position: relative;
@@ -357,6 +365,8 @@ ul {
 .footer__button {
     border: none;
     background-color: inherit;
+    cursor:pointer;
+
 }
 
 .footer__social-container {
@@ -366,6 +376,9 @@ ul {
     max-width: 150px;
 }
 
+.footer__social {
+    cursor: pointer;
+}
 .footer__textblock {
     font-family: 'ProximaNova-Regular';
     color: #999;
@@ -418,10 +431,12 @@ ul {
         border-radius: 35%;
         font-size: 16px;
         font-family: 'ProximaNova-Semibold';
+        cursor: pointer;
     }
 
     .desktop-header__resolution {
         font-family: 'ProximaNova-Semibold';
+        cursor: pointer;
     }
 
     .desktop-header__menu {
@@ -433,6 +448,8 @@ ul {
 
     .desktop-header__menu-item {
         font-family: 'Lora-Bold';
+        cursor: pointer;
+
     }
 
     .desktop-header__tools {
@@ -444,6 +461,8 @@ ul {
 
     .tools__item {
         margin: 0 10px;
+        cursor: pointer;
+
     }
 
     /* Content styles */
@@ -671,6 +690,13 @@ ul {
         display: none;
         border: none;
         background-color: inherit;
+
+
+    }
+
+    .aside__button-icon {
+        cursor: pointer;
+
     }
 
     .aside__switcher:checked ~ .aside__button-off {
