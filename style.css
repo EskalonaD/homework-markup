@@ -72,9 +72,11 @@ ul {
 .mobile-header__menu {
     cursor: pointer;
 }
+
 .mobile-header__search {
     cursor: pointer;
 }
+
 .mobile-header__heading {
     font-size: 23px;
     color: #fff;
@@ -228,6 +230,7 @@ ul {
 .content__topic {
     margin-bottom: 40px;
 }
+
 .content__heading {
     font-family: 'ProximaNova-Regular';
     font-size: 12px;
@@ -280,6 +283,7 @@ ul {
     margin-left: 20px;
     margin-bottom: 40px;
 }
+
 .advice__container {
     background-image: url('assets/cute-brain-cartoon2.jpeg');
     background-size: cover;
@@ -297,6 +301,7 @@ ul {
     border: 1px solid #000;
     padding: 20px;
 }
+
 .opinion__heading {
     margin-left: 20px;
 }
@@ -319,6 +324,10 @@ ul {
     right: 20px;
     bottom: 0;
     transform: translateY(50%);
+}
+
+.content__show-more {
+    display: none;
 }
 
 /* Footer styles */
@@ -379,6 +388,7 @@ ul {
 .footer__social {
     cursor: pointer;
 }
+
 .footer__textblock {
     font-family: 'ProximaNova-Regular';
     color: #999;
@@ -502,12 +512,7 @@ ul {
         padding: 40px;
     }
 
-    
-
-
-
     .review__illustration {
-        /* order: -1; */
         max-width: 45%;
         min-width: 45%;
         max-height: 200px;
@@ -523,11 +528,11 @@ ul {
         align-items: flex-end;
         
     }
+
     .review__heading__desktop {
         display: block;
         margin-right: 20px; 
         transform: translateX(-50px);
-
     }
     
     .review__description {
@@ -547,6 +552,7 @@ ul {
         width: 20px;
         border: 2px solid #f55;
     }
+
     .review__topic-heading {
         white-space: nowrap;
         font-size: 2.5vw;
@@ -578,13 +584,11 @@ ul {
     .advice__heading {
         margin-left: 0;
     }
+
     .advice__container {
         display: block;
         padding: 100px 20px;
         height: 60vh;
-        /* margin: 0 40px;
-        width: calc(100% - 80px)
-        box-sizing: pa */
     }
 
     .advice__description {
@@ -602,12 +606,7 @@ ul {
         padding: 40px;
     }
 
-    
-
-
-
     .opinion__illustration {
-        /* order: -1; */
         max-width: 45%;
         min-width: 45%;
         max-height: 200px;
@@ -621,15 +620,13 @@ ul {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        
     }
+
     .opinion__heading__desktop {
         display: block;
         margin-right: 20px; 
         transform: translateX(50px);
-        /* text-align: right; */
         align-self: flex-start;
-
     }
     
     .opinion__description {
@@ -651,25 +648,33 @@ ul {
         top: calc(50% - 30px);
         width: 20px;
         border: 2px solid #f55;
-
-
     }
 
     .opinion__info {
-
         width: 100%;
     }
+
     .opinion__topic-heading {
         white-space: nowrap;
         font-size: 2.5vw;
         text-align: right;
-        /* display: flex;
-        flex-direction: column;
-        align-items: flex-end; */
     }
 
     .opinion__bookmark {
         left: 20px;
+    }
+
+    .content__show-more {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        cursor: pointer;
+        font-family: 'Lora-Bold';
+        margin-bottom: 60px;
+    }
+
+    .show-more__icon {
+        transform: rotate(-100deg);
     }
 
     /* aside styles */
@@ -690,13 +695,10 @@ ul {
         display: none;
         border: none;
         background-color: inherit;
-
-
     }
 
     .aside__button-icon {
         cursor: pointer;
-
     }
 
     .aside__switcher:checked ~ .aside__button-off {
@@ -709,7 +711,7 @@ ul {
 
     /* footer styles */
 
-    .footer{
+    .footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
