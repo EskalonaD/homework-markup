@@ -60,12 +60,12 @@
                     <h2 class="content__heading">корисні статті</h2>
                     <h3 class="main-topic__heading">Дітям про тварин: любити, знати, захищати</h3>
                     <div class="main-topic__info">
-                        <section class="content__calendar calendar">
-                            <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                        <section class="content__calendar">
+                            <img src="assets\calendar.svg" alt="calendar symbol">
                             <p class="main-topic__time">1 жовтня, 2017</p>
                         </section>
-                        <section class="content__views views">
-                            <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                        <section class="content__views">
+                            <img src="assets\eye.svg" alt="views symbol">
                             <p class="main-topic__amount">980</p>
                         </section>
                     </div>
@@ -83,23 +83,26 @@
                     </div>
                 </section>
                 <section class="content__review review">
-                    <h2 class="content__heading review__heading">огляди</h2>
+                    <h2 class="content__heading review__heading review__heading__mobile">огляди</h2>
                     <img src="assets\ravlik.jpg" alt="snail" class="review__illustration content__illustration">
-                    <section class="review__description">
-                        <div class="content__info">
-                            <section class="content__calendar calendar">
-                                <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
-                                <p class="calendar__time">Сьогодні</p>
-                            </section>
-                            <section class="content__views views">
-                                <img src="assets\eye.svg" alt="views symbol" class="views__icon">
-                                <p class="views__amount">32</p>
-                            </section>
-                        </div>
-                        <h3 class="content__topic-heading">Шість пригодницьких історій для літнього читання</h3>
-                        <button class="content__read-button">Читати</button>
-                        <img src="assets\bookmark_big.svg" alt="bookmark icon" class="review__bookmark">
-                    </section>
+                    <div class="review__container">
+                        <h2 class="content__heading review__heading review__heading__desktop">огляди</h2>
+                        <section class="review__description">
+                            <div class="content__info">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
+                                    <p class="calendar__time">Сьогодні</p>
+                                </section>
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
+                                    <p class="views__amount">32</p>
+                                </section>
+                            </div>
+                            <h3 class="content__topic-heading review__topic-heading">Шість пригодницьких історій для <span class="br">літнього читання</span></h3>
+                            <button class="content__read-button">Читати</button>
+                            <img src="assets\bookmark_big.svg" alt="bookmark icon" class="review__bookmark">
+                        </section>
+                    </div>
                 </section>
                 <section class="content__topics-agregator">
                     <section class="content__topic">
@@ -107,12 +110,12 @@
                         <img src="assets\Creatures.png" alt="mouses in museum" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">1 Жовтня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">980</p>
                                 </section>
                             </div>
@@ -125,12 +128,12 @@
                         <img src="assets\Seasons.png" alt="park at autumn" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">22 Вересня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">145</p>
                                 </section>
                             </div>
@@ -143,12 +146,12 @@
                         <img src="assets\Relations.png" alt="anime heroes sit in train" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">28 Листопада, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">2045</p>
                                 </section>
                             </div>
@@ -157,18 +160,38 @@
                         </section>
                     </section>
                 </section>
+                <section class="content__advice advice">
+                        <h2 class="content__heading advice__heading">поради</h2>
+                        <div class="advice__container">
+                        <section class="content__description advice__description">
+                            <div class="content__info">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
+                                    <p class="calendar__time">28 вересня</p>
+                                </section>
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
+                                    <p class="views__amount">2045</p>
+                                </section>
+                            </div>
+                            <h3 class="content__topic-heading advice__topic-heading">&laquo;Любий щоденнику...&raquo;:ваш &laquo;настільний&raquo; психоаналітик</h3>
+                            <button class="content__read-button">Читати</button>
+                            <img src="assets\bookmark_big.svg" alt="bookmark icon" class="review__bookmark">
+                        </section>
+                    </div>
+                    </section>
                 <section class="content__topics-agregator">
                     <section class="content__topic">
                         <h2 class="content__heading">огляди</h2>
                         <img src="assets\Book.png" alt="book" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">28 Вересня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">2045</p>
                                 </section>
                             </div>
@@ -181,12 +204,12 @@
                         <img src="assets\Knowledge.png" alt="open book" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">8 Листопада, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">3045</p>
                                 </section>
                             </div>
@@ -199,12 +222,12 @@
                         <img src="assets\photo.png" alt="cartoon girl crawl in giant tunnel" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">28 Вересня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">6345</p>
                                 </section>
                             </div>
@@ -213,18 +236,40 @@
                         </section>
                     </section>
                 </section>
+                <section class="content__opinion opinion">
+                        <h2 class="content__heading opinion__heading opinion__heading__mobile">авторська колонка</h2>
+                        <img src="assets\beavers.jpg" alt="funny Beavers" class="opinion__illustration content__illustration">
+                        <div class="opinion__container">
+                            <h2 class="content__heading opinion__heading opinion__heading__desktop">авторська колонка</h2>
+                            <section class="opinion__description">
+                                <div class="content__info opinion__info">
+                                    <section class="content__calendar">
+                                        <img src="assets\calendar.svg" alt="calendar symbol">
+                                        <p class="calendar__time">22 вересня, 2017</p>
+                                    </section>
+                                    <section class="content__views">
+                                        <img src="assets\eye.svg" alt="views symbol">
+                                        <p class="views__amount">3045</p>
+                                    </section>
+                                </div>
+                                <h3 class="content__topic-heading opinion__topic-heading">Бути собою разом із Туве Янссон: 5 <span class="br">диваків Долини мумі-тролів</span></h3>
+                                <button class="content__read-button">Читати</button>
+                                <img src="assets\bookmark_big.svg" alt="bookmark icon" class="opinion__bookmark">
+                            </section>
+                        </div>
+                    </section>
                 <section class="content__topics-agregator">
                     <section class="content__topic">
                         <h2 class="content__heading">огляди</h2>
                         <img src="assets\Relations.png" alt="anime heroes sit in train" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">15 Вересня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">569</p>
                                 </section>
                             </div>
@@ -237,12 +282,12 @@
                         <img src="assets\Gallery.png" alt="art gallery" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">28 Вересня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">2045</p>
                                 </section>
                             </div>
@@ -255,12 +300,12 @@
                         <img src="assets\Art.png" alt="sculpture" class="content__illustration">
                         <section class="content__description">
                             <div class="content__info">
-                                <section class="content__calendar calendar">
-                                    <img src="assets\calendar.svg" alt="calendar symbol" class="calendar__icon">
+                                <section class="content__calendar">
+                                    <img src="assets\calendar.svg" alt="calendar symbol">
                                     <p class="calendar__time">28 Вересня, 2017</p>
                                 </section>
-                                <section class="content__views views">
-                                    <img src="assets\eye.svg" alt="views symbol" class="views__icon">
+                                <section class="content__views">
+                                    <img src="assets\eye.svg" alt="views symbol">
                                     <p class="views__amount">2045</p>
                                 </section>
                             </div>
